@@ -1,6 +1,6 @@
 # Atividade de  Programação Orientada a Objetos 1
-# Professor da disciplina: Luiz Augusto Rodrigues
-# Aluno: Vinicius Rolim Barbosa
+### Professor da disciplina: Luiz Augusto Rodrigues
+### Aluno: Vinicius Rolim Barbosa
 
 Este repositório contém a solução para a AtividadeA1 da disciplina **Programação Orientada a Objetos 1**. A atividade consiste na criação de um projeto em Java onde contém  **dez questões** implementadas de acordo com a Lista disponibilizada pelo Professor, utilizando os conceitos fundamentais da programação orientada a objetos.
 
@@ -22,4 +22,4 @@ Para rodar o código Java, siga os seguintes passos:
 
 1. Clone este repositório para sua máquina local:
    ```bash
-   git clone 
+   git clone https://github.com/Viniirb/AtividadeA1
