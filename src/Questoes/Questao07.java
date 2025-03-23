@@ -6,6 +6,7 @@ public class Questao07 extends BaseQuestion {
     
     private int option;
     private float totalConta;
+    private int qtdParcelas;
     Scanner leitura = new Scanner(System.in);
 
     @Override
@@ -34,7 +35,9 @@ public class Questao07 extends BaseQuestion {
                 break;
             case 3:
                 if(totalConta > 100){
-                    System.out.println("O valor total da conta em 3x até 10x com 3% de juros ao mês é: " + (totalConta + (totalConta * 0.03)));
+                    System.out.println("Informe a quantidade de parcelas: ");
+                    qtdParcelas = leitura.nextInt();
+                    System.out.println("O valor total da conta em " + qtdParcelas + "x com 3% de juros ao mês é: " + (totalConta + (totalConta * 0.03)));
                 }else{
                     System.out.println("O valor total da conta não atingiu o valor mínimo para parcelamento.");
                     break;
